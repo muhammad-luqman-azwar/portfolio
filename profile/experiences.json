@@ -1,0 +1,66 @@
+{
+    "experiences": [
+        {
+            "title": "IT Technician",
+            "subtitle": "Swiss-belhotel Borneo Banjarmasin",
+            "workType": "Daily Worker",
+            "workDescription": [
+                "Managed, maintained, and troubleshot **50+** IT hardware assets, including LAN/Wi-Fi network infrastructure, PCs, printers, and operational servers.",
+                "Provided rapid technical support for internal staff inquiries with an average response time of under **15** minutes.",
+                "Ensured seamless hotel operations by maintaining up to **99%** overall system uptime.",
+                "Handled the preparation, design, and installation of internet equipment and cabling, sound systems, and CCTV—totaling over **20** units—for a new room renovation project, achieving **100%** success without any issues."
+            ],
+            "dateText": "05/2025 – 06/2026"
+        },
+        {
+            "title": "Network Technician",
+            "subtitle": "PT Tiga Pilar Banua",
+            "workType": "Freelance",
+            "workDescription": [
+                "Executed installation, configuration, and connectivity testing of internet infrastructure in remote site locations.",
+                "Guaranteed **100%** stable and reliable communication data transmission for institutional operations."
+            ],
+            "dateText": "01/2025 – 01/2025"
+        },
+        {
+            "title": "Web Programmer",
+            "subtitle": "Komando Resort Militer 101/Antasari",
+            "workType": "Internship",
+            "workDescription": [
+                "Designed, tested, and optimized an internal web platform and database architecture for administrative workflows.",
+                "Boosted daily digital reporting efficiency by up to **95%** through streamlined data handling and user interface optimization."
+            ],
+            "dateText": "08/2024 – 01/2025"
+        },
+        {
+            "title": "Network Technician",
+            "subtitle": "PT Upaya Teknik",
+            "workType": "Part-Time",
+            "workDescription": [
+                "Handled cable routing, physical installation, and Wi-Fi router configuration for dozens of new IndiHome clients.",
+                "Maintained a **100%** installation success rate adhering strictly to standard operating procedures (SOP)."
+            ],
+            "dateText": "03/2022 – 03/2022"
+        },
+        {
+            "title": "Network Technician",
+            "subtitle": "PT Aplikasinusa Lintasarta",
+            "workType": "Internship",
+            "workDescription": [
+                "Carried out installation, routine maintenance, and dismantling procedures for VSAT satellite communication networks at various banking ATM locations.",
+                "Guaranteed continuous data transmission across financial network endpoints with **zero** downtime."
+            ],
+            "dateText": "07/2021 – 09/2021"
+        },
+        {
+            "title": "Computer Support",
+            "subtitle": "Toko Komputer LaptopKu",
+            "workType": "Internship",
+            "workDescription": [
+                "Executed OS and software setup along with hardware repair services for client PCs, laptops, and printers.",
+                "Handled and resolved hardware and software troubleshooting for an average of 5 devices daily."
+            ],
+            "dateText": "03/2021 – 05/2021"
+        }
+    ]
+}

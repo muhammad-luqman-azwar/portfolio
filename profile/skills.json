@@ -1,0 +1,121 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "skills": [{
+
+                "title" : "Networking & Infrastructure",
+                "items": [
+                    {
+                        "icon": "images/skills/mikrotik.png",
+                        "title": "Mikrotik"
+                    },
+                    {
+                        "icon": "images/skills/lanwifi.png",
+                        "title": "LAN/WiFi Networking"
+                    },
+                    {
+                        "icon": "images/skills/netrouble.png",
+                        "title": "Network Troubleshooting"
+                    },
+                    {
+                        "icon": "images/skills/router.png",
+                        "title": "Router Configuration"
+                    },
+                    {
+                        "icon": "images/skills/vsat.png",
+                        "title": "VSAT"
+                    }
+                ]
+        },
+        {
+            "title" : "IT Support & Systems",
+            "items": [
+                {
+                    "icon": "images/skills/hardservice.png",
+                    "title": "Hardware Service(PC/Laptop/Printer)"
+                },
+                {
+                    "icon": "images/skills/sys.png",
+                    "title": "System Maintenance"
+                },
+                {
+                    "icon": "images/skills/soft.png",
+                    "title": "Software Setup"
+                },
+                {
+                    "icon": "images/skills/winos.png",
+                    "title": "Windows OS"
+                },
+                {
+                    "icon": "images/skills/linux.png",
+                    "title": "Linux OS"
+                }
+            ]
+    },
+    { 
+    "title": "Languages & Databases",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/php.png",
+                    "title": "PHP"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/laravel.png",
+                    "title": "Laravel"
+                },
+                {
+                    "icon": "images/skills/bootstrap.png",
+                    "title": "Bootstrap"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/winbox.png",
+                    "title": "Winbox"
+                },
+                {
+                    "icon": "images/skills/msoffice.png",
+                    "title": "Microsoft Office"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                }
+            ]
+    }
+]}

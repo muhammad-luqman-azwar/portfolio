@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://linkedin.com/in/muhammad-luqman-azwar"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:muhammadluqmanazwar@gmail.com"
+        },
+        {
+            "network" : "gmail",
+            "href": "https://mail.google.com/mail/?view=cm&fs=1&to=muhammadluqmanazwar@gmail.com"
+        }
+    ]
+}

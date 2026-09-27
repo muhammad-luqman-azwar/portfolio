@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "2022 - 2025",
+            "cardTitle": "Associate Degree, Informatics Engineering",
+            "cardSubtitle":"State Polytechnic, Banjarmasin",
+            "cardDetailedText": "CGPA - 3.33",
+            "icon" : {
+                "src": "images/education/poliban.png"
+            }
+        },
+        {
+            "title": "2019 - 2022",
+            "cardTitle": "Vocational High School, Computer and Network Engineering",
+            "cardSubtitle":"Muhammadiyah 2, Banjarmasin",
+            "cardDetailedText": "Marks - 90%",
+            "icon" : {
+                "src": "images/education/smkm2.png"
+            }
+        }
+    ]
+}
