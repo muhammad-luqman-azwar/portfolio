@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "2022 - 2025",
+            "cardTitle": "Associate Degree, Informatics Engineering",
+            "cardSubtitle":"State Polytechnic, Banjarmasin",
+            "cardDetailedText": "CGPA - 3.33",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/poliban.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "2019 - 2022",
+            "cardTitle": "Vocational High School, Computer and Network Engineering",
+            "cardSubtitle":"Muhammadiyah 2, Banjarmasin",
+            "cardDetailedText": "Marks - 90%",
+            "icon" : {
+                "src": "images/education/smkm2.png"
+            }
         }
     ]
 }

@@ -2,19 +2,15 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
-        },
-        {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
-        },
-        {
-            "network" : "leetcode",
-            "href": "https://leetcode.com/"
+            "href": "https://linkedin.com/in/muhammad-luqman-azwar"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:muhammadluqmanazwar@gmail.com"
+        },
+        {
+            "network" : "gmail",
+            "href": "https://mail.google.com/mail/?view=cm&fs=1&to=muhammadluqmanazwar@gmail.com"
         }
     ]
 }

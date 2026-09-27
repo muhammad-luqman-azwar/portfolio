@@ -1,7 +1,7 @@
 /* About as a bento: a wide bio tile beside a full-bleed portrait tile. */
 
 .about-bio-tile {
-  text-align: left;
+  text-align: justify;
   display: flex;
   flex-direction: column;
   justify-content: center;

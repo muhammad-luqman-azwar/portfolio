@@ -1,5 +1,11 @@
 {
-    "name": "Your Name",
-    "roles": ["a Developer", "a Freelancer"],
-    "status": "Open to building cool things"
+    "name": "Muhammad Luqman Azwar",
+    "roles": [  
+                "an IT Officer",
+                "an Infrastructure Network Engineer",
+                "a Systems Administrator",
+                "a Web Developer",
+                "a Freelancer"
+            ],
+    "status": "Welcome to my Portfolio Website – Open for work & collaborations"
 }
