@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import PropTypes from 'prop-types';
+import Typewriter from 'typewriter-effect';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
@@ -56,7 +57,18 @@ const Projects = (props) => {
                   border: '1px solid rgba(255, 107, 107, 0.3)',
                 }}
               >
-                HTTP 503 SERVICE UNAVAILABLE
+                <Typewriter
+                  options={{
+                    strings: [
+                      'HTTP 503 SERVICE UNAVAILABLE!',
+                      'SYSTEM UNDER MAINTENANCE :(',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    delay: 70,
+                    deleteSpeed: 40,
+                  }}
+                />
               </div>
               <h3 style={{ fontSize: '1.8rem', marginBottom: '0.8rem', color: '#fff' }}>
                 🚧 Under Maintenance 🚧
