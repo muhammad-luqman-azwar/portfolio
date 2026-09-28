@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import PropTypes from 'prop-types';
 import Typewriter from 'typewriter-effect';
+import { ThemeContext } from 'styled-components';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
@@ -10,6 +11,7 @@ import '../css/projects.css';
 
 const Projects = (props) => {
   const { header } = props;
+  const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
   const [showMore, setShowMore] = useState(false);
 
@@ -37,8 +39,8 @@ const Projects = (props) => {
               style={{
                 padding: '3rem 2rem',
                 borderRadius: '16px',
-                backgroundColor: 'rgba(255, 255, 255, 0.03)',
-                border: '1px solid rgba(255, 255, 255, 0.08)',
+                backgroundColor: theme?.cardBackground || 'rgba(125, 125, 125, 0.08)',
+                border: `1px solid ${theme?.color ? `${theme.color}22` : 'rgba(125, 125, 125, 0.2)'}`,
                 textAlign: 'center',
                 margin: '2rem auto',
                 maxWidth: '600px',
@@ -49,21 +51,19 @@ const Projects = (props) => {
                   display: 'inline-block',
                   padding: '0.35rem 0.8rem',
                   borderRadius: '20px',
-                  backgroundColor: 'rgba(255, 107, 107, 0.15)',
-                  color: '#ff6b6b',
+                  backgroundColor: 'rgba(255, 107, 107, 0.18)',
+                  color: '#e63946',
                   fontWeight: 'bold',
                   fontSize: '0.9rem',
                   marginBottom: '1rem',
-                  border: '1px solid rgba(255, 107, 107, 0.3)',
+                  border: '1px solid rgba(255, 107, 107, 0.4)',
                 }}
               >
                 <Typewriter
                   options={{
                     strings: [
                       '503 SERVICE UNAVAILABLE!',
-                      'SYSTEM UNDER MAINTENANCE :(',
-                      'WE ARE CURRENTLY UPDATING THE CONTENT :)',
-                      'WILL BE BACK SOON, THANK YOU FOR YOUR PATIENCE! >_<',
+                      'SYSTEM UNDER MAINTENANCE',
                     ],
                     autoStart: true,
                     loop: true,
@@ -72,10 +72,10 @@ const Projects = (props) => {
                   }}
                 />
               </div>
-              <h3 style={{ fontSize: '1.8rem', marginBottom: '0.8rem', color: '#fff' }}>
+              <h3 style={{ fontSize: '1.8rem', marginBottom: '0.8rem', color: theme?.color || 'inherit' }}>
                 🚧 System Under Maintenance 🚧
               </h3>
-              <p style={{ opacity: 0.8, lineHeight: '1.6', margin: 0 }}>
+              <p style={{ color: theme?.color || 'inherit', opacity: 0.8, lineHeight: '1.6', margin: 0 }}>
                 The projects page is currently undergoing content updates and will be uploaded in stages soon.
               </p>
             </div>
