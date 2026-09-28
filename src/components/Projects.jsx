@@ -60,8 +60,10 @@ const Projects = (props) => {
                 <Typewriter
                   options={{
                     strings: [
-                      'HTTP 503 SERVICE UNAVAILABLE!',
+                      '503 SERVICE UNAVAILABLE!',
                       'SYSTEM UNDER MAINTENANCE :(',
+                      'WE ARE CURRENTLY UPDATING THE CONTENT :)',
+                      'WILL BE BACK SOON, THANK YOU FOR YOUR PATIENCE! >_<',
                     ],
                     autoStart: true,
                     loop: true,
@@ -71,7 +73,7 @@ const Projects = (props) => {
                 />
               </div>
               <h3 style={{ fontSize: '1.8rem', marginBottom: '0.8rem', color: '#fff' }}>
-                🚧 Under Maintenance 🚧
+                🚧 System Under Maintenance 🚧
               </h3>
               <p style={{ opacity: 0.8, lineHeight: '1.6', margin: 0 }}>
                 The projects page is currently undergoing content updates and will be uploaded in stages soon.
