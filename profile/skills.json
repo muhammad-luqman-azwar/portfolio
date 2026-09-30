@@ -6,7 +6,19 @@
                 "items": [
                     {
                         "icon": "images/skills/mikrotik.png",
-                        "title": "Mikrotik"
+                        "title": "MikroTik"
+                    },
+                    {
+                        "icon": "images/skills/cisco.png",
+                        "title": "Cisco"
+                    },
+                    {
+                        "icon": "images/skills/tplink.png",
+                        "title": "Tp-Link"
+                    },
+                    {
+                        "icon": "images/skills/ruijie.png",
+                        "title": "Ruijie"
                     },
                     {
                         "icon": "images/skills/lanwifi.png",
@@ -31,7 +43,7 @@
             "items": [
                 {
                     "icon": "images/skills/hardservice.png",
-                    "title": "Hardware Service(PC/Laptop/Printer)"
+                    "title": "Service PC/Laptop/Printer"
                 },
                 {
                     "icon": "images/skills/sys.png",
@@ -94,6 +106,14 @@
                 {
                     "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/vite.png",
+                    "title": "Vite"
                 }
             ]
         },
@@ -105,8 +125,36 @@
                     "title": "Winbox"
                 },
                 {
+                    "icon": "images/skills/vscode.png",
+                    "title": "VS Code"
+                },
+                {
                     "icon": "images/skills/msoffice.png",
                     "title": "Microsoft Office"
+                },
+                {
+                    "icon": "images/skills/virtualbox.png",
+                    "title": "Virtualbox"
+                },
+                {
+                    "icon": "images/skills/xampp.png",
+                    "title": "XAMPP"
+                },
+                {
+                    "icon": "images/skills/phpmyadmin.png",
+                    "title": "phpMyAdmin"
+                },
+                {
+                        "icon": "images/skills/cloudflare.png",
+                        "title": "Cloudflare"
+                },
+                {
+                        "icon": "images/skills/vmware.png",
+                        "title": "VMware Workstation"
+                },
+                {
+                    "icon": "images/skills/github.png",
+                    "title": "Github"
                 },
                 {
                     "icon": "images/skills/git.png",
