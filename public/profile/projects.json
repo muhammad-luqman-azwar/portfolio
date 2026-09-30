@@ -1,150 +1,121 @@
 {
-    "projects" : [
-        {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
-            ]
-        }
-    ]
+  "projects": [
+    {
+      "image": "images/projects/Projects-sbb1.mp4",
+      "title": "New Room Renovation Project",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Handled the preparation, design, and installation of internet equipment and cabling, sound systems, and CCTV—totaling over 20 units—for a new room renovation project, achieving 100% success without any issues.\n - Perform cable management, bandwidth testing, and periodic hardware maintenance.",
+      "links": [],
+      "tags": [
+        "Router Configuration",
+        "LAN/WiFi Networking",
+        "CCTV Installation",
+        "Sound System Installation",
+        "Ruijie"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb2.mp4",
+      "title": "Network Infrastructure Management",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Overseen the deployment, configuration, and asset lifecycle of core network hardware.\n - Performed continuous preventive maintenance to maximize uptime and operational stability.\n - Troubleshot and resolved complex network infrastructure incidents with minimal downtime.",
+      "links": [],
+      "tags": [
+        "Router Configuration",
+        "LAN/WiFi Networking",
+        "Network Troubleshooting",
+        "Winbox",
+        "MikroTik",
+        "Ruijie"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb3.mp4",
+      "title": "PC Systems & Hardware Maintenance",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Configured, deployed, and managed workstation inventory and peripheral hardware assets across operational units.\n - Performed routine preventive maintenance, system upgrades, and OS patching to maintain optimal computing performance.\n - Diagnosed and repaired PC hardware faults, operating system issues, and software errors with minimal downtime.",
+      "links": [],
+      "tags": [
+        "Service PC/Laptop/Printer",
+        "System maintenance",
+        "Software Setup",
+        "Windows OS"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb4.mp4",
+      "title": "CCTV & Surveillance System Infrastructure",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Executed end-to-end installation and configuration of IP/Analog CCTV cameras, NVR/DVR recorders, and optimized network cabling routes.\n - Performed routine hardware inspections, lens calibrations, and storage capacity checks to ensure uninterrupted 24/7 surveillance recording.\n - Diagnosed and resolved video feed dropouts, signal loss, network connectivity faults, and power supply issues with minimal downtime.",
+      "links": [],
+      "tags": [
+        "CCTV Installation",
+        "System maintenance",
+        "Software Setup"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb5.mp4",
+      "title": "Internal Web Services & Domain Routing",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Developed a streamlined web utility to simplify, generate, and standardize HTML email signatures across organization staff.\n - Configured and mapped the Power Pro Hotel management web system from a raw public IP address to a custom branded domain name for better accessibility.\n - Administered DNS records and web server configurations to ensure secure, reliable, and user-friendly web access for operational teams.",
+      "links": [],
+      "tags": [
+        "HTML",
+        "CSS",
+        "Cloudflare",
+        "System maintenance"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb6.mp4",
+      "title": "Hotel Management System Support & User Assistance",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Provided dedicated IT support to hotel staff, assisting with daily operations, module navigation, and workflow execution within the Power Pro Hotel Management System.\n - Troubleshot application glitches, data entry discrepancies, and operational issues promptly to maintain uninterrupted front-office and back-office services.",
+      "links": [],
+      "tags": [
+        "System maintenance",
+        "Software Setup",
+        "Windows OS"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb7.mp4",
+      "title": "RFID Access Door Integration & Hardware Repair",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Configured and deployed OnIndo RFID access card systems across hotel guest rooms and restricted operational doors to ensure secure access control.\n - Diagnosed, repaired, and recalibrated malfunctioning electronic door locks, card readers, and power controller modules to restore functionality.\n - Programmed access credentials and conducted end-to-end testing to maintain seamless guest entry and physical security standards.",
+      "links": [],
+      "tags": [
+        "System maintenance",
+        "Software Setup"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb8.mp4",
+      "title": "Remote IT Helpdesk & Desktop Support",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Provided prompt remote assistance to staff using remote desktop applications (e.g., AnyDesk, TeamViewer, VNC) to resolve PC operational issues efficiently.\n - Diagnosed and resolved operating system crashes, application glitches, network configuration faults, driver issues, etc with minimal user downtime.\n - Guided personnel through system configurations and software workflows, maintaining high incident-resolution rates and smooth operational continuity.",
+      "links": [],
+      "tags": [
+        "Windows OS",
+        "System maintenance",
+        "Software Setup",
+        "Network Troubleshooting",
+        "Remote Desktop Support"
+      ]
+    },
+    {
+      "image": "images/projects/Projects-sbb9.mp4",
+      "title": "Printer Hardware & Network Printing Support",
+      "location": "Swiss-belhotel Borneo, Banjarmasin",
+      "bodyText": "- Configured and deployed desktop and shared network printers across departments, establishing stable LAN/IP print server connections.\n - Diagnosed and resolved hardware faults, paper jams, print spooler crashes, driver conflicts, and connectivity issues promptly to minimize workflow disruptions.\n - Performed scheduled head cleaning, alignment calibrations, and toner/ink cartridge replacements to maintain high print quality and prolong hardware lifespan.",
+      "links": [],
+      "tags": [
+        "System maintenance",
+        "Software Setup",
+        "Network Troubleshooting",
+        "Windows OS"
+      ]
+    }
+  ]
 }

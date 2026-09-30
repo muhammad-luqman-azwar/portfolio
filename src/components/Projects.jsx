@@ -16,7 +16,7 @@ const Projects = (props) => {
   const [showMore, setShowMore] = useState(false);
 
   // UBAH KE true UNTUK MAINTENANCE, UBAH KE false JIKA SUDAH SIAP DITAMPILKAN
-  const isMaintenance = true;
+  const isMaintenance = false;
 
   useEffect(() => {
     fetch(endpoints.projects, {
@@ -27,7 +27,7 @@ const Projects = (props) => {
       .catch((err) => err);
   }, []);
 
-  const numberOfItems = showMore && data ? data.projects.length : 6;
+  const numberOfItems = showMore && data ? data.projects.length : 2;
 
   return (
     <>
@@ -62,8 +62,9 @@ const Projects = (props) => {
                 <Typewriter
                   options={{
                     strings: [
-                      '503 SERVICE UNAVAILABLE!',
-                      'SYSTEM UNDER MAINTENANCE',
+                      '503 SERVICE UNAVAILABLE! :(',
+                      'WE ARE CURRENTLY UPDATING THE CONTENT :)',
+                      'WILL BE BACK SOON, THANK YOU FOR YOUR PATIENCE! >_<',
                     ],
                     autoStart: true,
                     loop: true,
@@ -76,7 +77,7 @@ const Projects = (props) => {
                 🚧 System Under Maintenance 🚧
               </h3>
               <p style={{ color: theme?.color || 'inherit', opacity: 0.8, lineHeight: '1.6', margin: 0 }}>
-                The projects page is currently undergoing content updates and will be uploaded in stages soon.
+                This page is currently undergoing content updates and will be uploaded in stages soon.
               </p>
             </div>
           </Fade>
