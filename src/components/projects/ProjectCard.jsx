@@ -9,6 +9,9 @@ const ProjectCard = ({ project, featured = false }) => {
 
   const isVideo = project?.image && /\.(mp4|webm|ogg|mov)$/i.test(project.image);
 
+  // Ekstrak path dasar file video tanpa ekstensi untuk fallback WebM / MP4
+  const videoBasePath = isVideo ? project.image.replace(/\.(mp4|webm|ogg|mov)$/i, '') : '';
+
   const handlePlay = () => {
     if (videoRef.current) {
       videoRef.current.play()
@@ -50,7 +53,6 @@ const ProjectCard = ({ project, featured = false }) => {
             <div style={{ position: 'relative', width: '100%', height: '100%' }}>
               <video
                 ref={videoRef}
-                src={project.image}
                 muted
                 loop
                 playsInline
@@ -61,7 +63,13 @@ const ProjectCard = ({ project, featured = false }) => {
                   objectFit: 'cover',
                   display: 'block',
                 }}
-              />
+              >
+                {/* 1. Prioritaskan format WebM untuk loading yang lebih cepat */}
+                <source src={`${videoBasePath}.webm`} type="video/webm" />
+                {/* 2. Fallback ke format MP4 jika browser tidak mendukung WebM */}
+                <source src={`${videoBasePath}.mp4`} type="video/mp4" />
+                Browser Anda tidak mendukung pemutar video HTML5.
+              </video>
 
               <a
                 href={project.image}
